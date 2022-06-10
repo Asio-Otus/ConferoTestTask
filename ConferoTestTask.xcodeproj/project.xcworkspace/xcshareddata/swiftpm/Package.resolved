@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Nivelir",
+        "repositoryURL": "https://github.com/hhru/Nivelir",
+        "state": {
+          "branch": null,
+          "revision": "6730b8e0b0b8141904afdfe6809596ad7fd6944c",
+          "version": "1.2.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

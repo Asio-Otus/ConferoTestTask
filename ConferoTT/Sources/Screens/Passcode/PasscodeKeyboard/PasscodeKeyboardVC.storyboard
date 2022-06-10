@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Passcode KeyboardVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="PasscodeKeyboardVC" id="Y6W-OH-hqX" customClass="PasscodeKeyboardVC" customModule="ConferoTT" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="myC-41-a97">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="8Lx-Dh-Tct">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="224"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xnB-ZP-1vM" customClass="PasscodeKeyButtonView" customModule="ConferoTT" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="138" height="224"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="digit" value="1"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FXN-IT-gAy" customClass="PasscodeKeyButtonView" customModule="ConferoTT" customModuleProvider="target">
+                                                <rect key="frame" x="138" y="0.0" width="138" height="224"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="digit" value="2"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FtW-Xu-e9N" customClass="PasscodeKeyButtonView" customModule="ConferoTT" customModuleProvider="target">
+                                                <rect key="frame" x="276" y="0.0" width="138" height="224"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="digit" value="3"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="rm7-fE-8Fz">
+                                        <rect key="frame" x="0.0" y="224" width="414" height="224"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PKa-1T-iWL" customClass="PasscodeKeyButtonView" customModule="ConferoTT" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="138" height="224"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="digit" value="4"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1o3-b7-k5I" customClass="PasscodeKeyButtonView" customModule="ConferoTT" customModuleProvider="target">
+                                                <rect key="frame" x="138" y="0.0" width="138" height="224"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="digit" value="5"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dQY-dF-h80" customClass="PasscodeKeyButtonView" customModule="ConferoTT" customModuleProvider="target">
+                                                <rect key="frame" x="276" y="0.0" width="138" height="224"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="digit" value="6"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="KhD-IF-3AT">
+                                        <rect key="frame" x="0.0" y="448" width="414" height="224"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FjA-6o-FLQ" customClass="PasscodeKeyButtonView" customModule="ConferoTT" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="138" height="224"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="digit" value="7"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wrj-iT-f5P" customClass="PasscodeKeyButtonView" customModule="ConferoTT" customModuleProvider="target">
+                                                <rect key="frame" x="138" y="0.0" width="138" height="224"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="digit" value="8"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GZh-z5-vBG" customClass="PasscodeKeyButtonView" customModule="ConferoTT" customModuleProvider="target">
+                                                <rect key="frame" x="276" y="0.0" width="138" height="224"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="digit" value="9"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="m8b-H3-eR2">
+                                        <rect key="frame" x="0.0" y="672" width="414" height="224"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S2K-lF-yR1">
+                                                <rect key="frame" x="0.0" y="0.0" width="138" height="224"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kQ5-ps-8C1" customClass="PasscodeKeyButtonView" customModule="ConferoTT" customModuleProvider="target">
+                                                <rect key="frame" x="138" y="0.0" width="138" height="224"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="digit" value="0"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D2P-ZG-ha9">
+                                                <rect key="frame" x="276" y="0.0" width="138" height="224"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="myC-41-a97" secondAttribute="bottom" id="Sh8-0x-nVQ"/>
+                            <constraint firstItem="myC-41-a97" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="iY2-Cs-2mc"/>
+                            <constraint firstItem="myC-41-a97" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="topMargin" id="sUo-eS-bOJ"/>
+                            <constraint firstAttribute="trailing" secondItem="myC-41-a97" secondAttribute="trailing" id="tGK-65-Kh1"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="414" height="896"/>
+                    <connections>
+                        <outletCollection property="buttons" destination="xnB-ZP-1vM" collectionClass="NSMutableArray" id="210-AT-VqW"/>
+                        <outletCollection property="buttons" destination="FXN-IT-gAy" collectionClass="NSMutableArray" id="PhO-JU-7Af"/>
+                        <outletCollection property="buttons" destination="FtW-Xu-e9N" collectionClass="NSMutableArray" id="D04-T2-MdP"/>
+                        <outletCollection property="buttons" destination="PKa-1T-iWL" collectionClass="NSMutableArray" id="j7J-hp-Pqu"/>
+                        <outletCollection property="buttons" destination="1o3-b7-k5I" collectionClass="NSMutableArray" id="y9n-Rf-cS1"/>
+                        <outletCollection property="buttons" destination="dQY-dF-h80" collectionClass="NSMutableArray" id="iID-kw-Muw"/>
+                        <outletCollection property="buttons" destination="FjA-6o-FLQ" collectionClass="NSMutableArray" id="8d8-Vg-RcY"/>
+                        <outletCollection property="buttons" destination="Wrj-iT-f5P" collectionClass="NSMutableArray" id="ZB1-D8-xtV"/>
+                        <outletCollection property="buttons" destination="GZh-z5-vBG" collectionClass="NSMutableArray" id="g7p-hv-mdh"/>
+                        <outletCollection property="buttons" destination="kQ5-ps-8C1" collectionClass="NSMutableArray" id="gMP-yh-9SO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="138"/>
+        </scene>
+    </scenes>
+</document>

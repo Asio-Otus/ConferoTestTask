@@ -1,3 +1,4 @@
 import UIKit
+import HelpersLayer
 
-class MainNC: UINavigationController { }
+class MainNC: UINavigationController, StoryboardInstantiatable { }

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A65E5D628537E9A00D1FB74 /* PasscodeKeyboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5D528537E9A00D1FB74 /* PasscodeKeyboardVC.swift */; };
+		3A65E5D92853864A00D1FB74 /* ViewModelContainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5D82853864A00D1FB74 /* ViewModelContainable.swift */; };
+		3A65E5DB2853898100D1FB74 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5DA2853898100D1FB74 /* Configuration.swift */; };
+		3A65E5DF28538C1500D1FB74 /* PasscodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5DE28538C1500D1FB74 /* PasscodeService.swift */; };
+		3A65E5E128538C2600D1FB74 /* PPasscodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5E028538C2600D1FB74 /* PPasscodeService.swift */; };
 		3AFCFB7A285368C600220ED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFB79285368C600220ED8 /* AppDelegate.swift */; };
 		3AFCFB7C285368C600220ED8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFB7B285368C600220ED8 /* SceneDelegate.swift */; };
 		3AFCFB83285368C700220ED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFCFB82285368C700220ED8 /* Assets.xcassets */; };
@@ -14,15 +19,25 @@
 		3AFCFB92285369E700220ED8 /* PasscodeVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFCFB91285369E700220ED8 /* PasscodeVC.storyboard */; };
 		3AFCFB94285369F100220ED8 /* PasscodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFB93285369F100220ED8 /* PasscodeVC.swift */; };
 		3AFCFB96285369FC00220ED8 /* PasscodeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFB95285369FC00220ED8 /* PasscodeVM.swift */; };
-		3AFCFB9828536A0F00220ED8 /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFB9728536A0F00220ED8 /* FoodView.swift */; };
 		3AFCFB9B28536A1E00220ED8 /* MainNC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFCFB9A28536A1E00220ED8 /* MainNC.storyboard */; };
 		3AFCFB9D28536A2500220ED8 /* MainNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFB9C28536A2500220ED8 /* MainNC.swift */; };
-		3AFCFB9F28536A5800220ED8 /* FoodVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFB9E28536A5800220ED8 /* FoodVM.swift */; };
-		3AFCFBA128536AAE00220ED8 /* PFoodVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFBA028536AAE00220ED8 /* PFoodVM.swift */; };
 		3AFCFBA328536ADD00220ED8 /* PPasscodeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFBA228536ADD00220ED8 /* PPasscodeVM.swift */; };
+		3AFCFBA628536C7200220ED8 /* Nivelir in Frameworks */ = {isa = PBXBuildFile; productRef = 3AFCFBA528536C7200220ED8 /* Nivelir */; };
+		3AFCFBA828536C9700220ED8 /* PasscodeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFBA728536C9700220ED8 /* PasscodeScreen.swift */; };
+		3AFCFBAB28536E8100220ED8 /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFBAA28536E8100220ED8 /* Routes.swift */; };
+		3AFCFBAD28536F2200220ED8 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFBAC28536F2200220ED8 /* MainScreen.swift */; };
+		3AFCFBB12853738000220ED8 /* HelpersLayer in Frameworks */ = {isa = PBXBuildFile; productRef = 3AFCFBB02853738000220ED8 /* HelpersLayer */; };
+		3AFCFBB7285379B500220ED8 /* PasscodeKeyboardVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFCFBB6285379B500220ED8 /* PasscodeKeyboardVC.storyboard */; };
+		3AFCFBB9285379E400220ED8 /* PasscodeKeyButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AFCFBB8285379E400220ED8 /* PasscodeKeyButtonView.xib */; };
+		3AFCFBBC28537A4F00220ED8 /* PasscodeKeyButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFBBB28537A4F00220ED8 /* PasscodeKeyButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A65E5D528537E9A00D1FB74 /* PasscodeKeyboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeKeyboardVC.swift; sourceTree = "<group>"; };
+		3A65E5D82853864A00D1FB74 /* ViewModelContainable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelContainable.swift; sourceTree = "<group>"; };
+		3A65E5DA2853898100D1FB74 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		3A65E5DE28538C1500D1FB74 /* PasscodeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeService.swift; sourceTree = "<group>"; };
+		3A65E5E028538C2600D1FB74 /* PPasscodeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPasscodeService.swift; sourceTree = "<group>"; };
 		3AFCFB76285368C600220ED8 /* ConferoTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConferoTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFCFB79285368C600220ED8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AFCFB7B285368C600220ED8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,12 +47,15 @@
 		3AFCFB91285369E700220ED8 /* PasscodeVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PasscodeVC.storyboard; sourceTree = "<group>"; };
 		3AFCFB93285369F100220ED8 /* PasscodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeVC.swift; sourceTree = "<group>"; };
 		3AFCFB95285369FC00220ED8 /* PasscodeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeVM.swift; sourceTree = "<group>"; };
-		3AFCFB9728536A0F00220ED8 /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
 		3AFCFB9A28536A1E00220ED8 /* MainNC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainNC.storyboard; sourceTree = "<group>"; };
 		3AFCFB9C28536A2500220ED8 /* MainNC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNC.swift; sourceTree = "<group>"; };
-		3AFCFB9E28536A5800220ED8 /* FoodVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodVM.swift; sourceTree = "<group>"; };
-		3AFCFBA028536AAE00220ED8 /* PFoodVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFoodVM.swift; sourceTree = "<group>"; };
 		3AFCFBA228536ADD00220ED8 /* PPasscodeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPasscodeVM.swift; sourceTree = "<group>"; };
+		3AFCFBA728536C9700220ED8 /* PasscodeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeScreen.swift; sourceTree = "<group>"; };
+		3AFCFBAA28536E8100220ED8 /* Routes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
+		3AFCFBAC28536F2200220ED8 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		3AFCFBB6285379B500220ED8 /* PasscodeKeyboardVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PasscodeKeyboardVC.storyboard; sourceTree = "<group>"; };
+		3AFCFBB8285379E400220ED8 /* PasscodeKeyButtonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasscodeKeyButtonView.xib; sourceTree = "<group>"; };
+		3AFCFBBB28537A4F00220ED8 /* PasscodeKeyButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeKeyButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,17 +63,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AFCFBB12853738000220ED8 /* HelpersLayer in Frameworks */,
+				3AFCFBA628536C7200220ED8 /* Nivelir in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A65E5D72853863300D1FB74 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3A65E5D82853864A00D1FB74 /* ViewModelContainable.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3A65E5DC28538C0700D1FB74 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3A65E5E228538C2700D1FB74 /* PasscodeService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3A65E5E228538C2700D1FB74 /* PasscodeService */ = {
+			isa = PBXGroup;
+			children = (
+				3A65E5DE28538C1500D1FB74 /* PasscodeService.swift */,
+				3A65E5E028538C2600D1FB74 /* PPasscodeService.swift */,
+			);
+			path = PasscodeService;
+			sourceTree = "<group>";
+		};
 		3AFCFB6B285368A900220ED8 = {
 			isa = PBXGroup;
 			children = (
 				3AFCFB78285368C600220ED8 /* ConferoTT */,
 				3AFCFB77285368C600220ED8 /* Products */,
+				3AFCFBAF2853738000220ED8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,9 +125,13 @@
 		3AFCFB8B285368CD00220ED8 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				3A65E5DC28538C0700D1FB74 /* Services */,
+				3A65E5D72853863300D1FB74 /* Helpers */,
+				3AFCFBA928536D8100220ED8 /* Navigation */,
 				3AFCFB79285368C600220ED8 /* AppDelegate.swift */,
 				3AFCFB7B285368C600220ED8 /* SceneDelegate.swift */,
 				3AFCFB8E285369C200220ED8 /* Screens */,
+				3A65E5DA2853898100D1FB74 /* Configuration.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -100,7 +150,6 @@
 			isa = PBXGroup;
 			children = (
 				3AFCFB9928536A1300220ED8 /* Main */,
-				3AFCFB90285369D000220ED8 /* Food */,
 				3AFCFB8F285369C800220ED8 /* Passcode */,
 			);
 			path = Screens;
@@ -109,22 +158,15 @@
 		3AFCFB8F285369C800220ED8 /* Passcode */ = {
 			isa = PBXGroup;
 			children = (
+				3AFCFBBA28537A3D00220ED8 /* PasscodeKeyButton */,
+				3AFCFBB5285379A200220ED8 /* PasscodeKeyboard */,
 				3AFCFB91285369E700220ED8 /* PasscodeVC.storyboard */,
 				3AFCFB93285369F100220ED8 /* PasscodeVC.swift */,
 				3AFCFB95285369FC00220ED8 /* PasscodeVM.swift */,
 				3AFCFBA228536ADD00220ED8 /* PPasscodeVM.swift */,
+				3AFCFBA728536C9700220ED8 /* PasscodeScreen.swift */,
 			);
 			path = Passcode;
-			sourceTree = "<group>";
-		};
-		3AFCFB90285369D000220ED8 /* Food */ = {
-			isa = PBXGroup;
-			children = (
-				3AFCFB9728536A0F00220ED8 /* FoodView.swift */,
-				3AFCFB9E28536A5800220ED8 /* FoodVM.swift */,
-				3AFCFBA028536AAE00220ED8 /* PFoodVM.swift */,
-			);
-			path = Food;
 			sourceTree = "<group>";
 		};
 		3AFCFB9928536A1300220ED8 /* Main */ = {
@@ -132,8 +174,42 @@
 			children = (
 				3AFCFB9A28536A1E00220ED8 /* MainNC.storyboard */,
 				3AFCFB9C28536A2500220ED8 /* MainNC.swift */,
+				3AFCFBAC28536F2200220ED8 /* MainScreen.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		3AFCFBA928536D8100220ED8 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				3AFCFBAA28536E8100220ED8 /* Routes.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		3AFCFBAF2853738000220ED8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AFCFBB5285379A200220ED8 /* PasscodeKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3AFCFBB6285379B500220ED8 /* PasscodeKeyboardVC.storyboard */,
+				3A65E5D528537E9A00D1FB74 /* PasscodeKeyboardVC.swift */,
+			);
+			path = PasscodeKeyboard;
+			sourceTree = "<group>";
+		};
+		3AFCFBBA28537A3D00220ED8 /* PasscodeKeyButton */ = {
+			isa = PBXGroup;
+			children = (
+				3AFCFBB8285379E400220ED8 /* PasscodeKeyButtonView.xib */,
+				3AFCFBBB28537A4F00220ED8 /* PasscodeKeyButtonView.swift */,
+			);
+			path = PasscodeKeyButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +228,10 @@
 			dependencies = (
 			);
 			name = ConferoTT;
+			packageProductDependencies = (
+				3AFCFBA528536C7200220ED8 /* Nivelir */,
+				3AFCFBB02853738000220ED8 /* HelpersLayer */,
+			);
 			productName = ConferoTT;
 			productReference = 3AFCFB76285368C600220ED8 /* ConferoTT.app */;
 			productType = "com.apple.product-type.application";
@@ -180,6 +260,9 @@
 				Base,
 			);
 			mainGroup = 3AFCFB6B285368A900220ED8;
+			packageReferences = (
+				3AFCFBA428536C7200220ED8 /* XCRemoteSwiftPackageReference "Nivelir" */,
+			);
 			productRefGroup = 3AFCFB77285368C600220ED8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -195,9 +278,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AFCFB86285368C700220ED8 /* LaunchScreen.storyboard in Resources */,
+				3AFCFBB7285379B500220ED8 /* PasscodeKeyboardVC.storyboard in Resources */,
 				3AFCFB83285368C700220ED8 /* Assets.xcassets in Resources */,
 				3AFCFB92285369E700220ED8 /* PasscodeVC.storyboard in Resources */,
 				3AFCFB9B28536A1E00220ED8 /* MainNC.storyboard in Resources */,
+				3AFCFBB9285379E400220ED8 /* PasscodeKeyButtonView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,14 +293,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AFCFB9F28536A5800220ED8 /* FoodVM.swift in Sources */,
-				3AFCFB9828536A0F00220ED8 /* FoodView.swift in Sources */,
+				3AFCFBAD28536F2200220ED8 /* MainScreen.swift in Sources */,
+				3A65E5D92853864A00D1FB74 /* ViewModelContainable.swift in Sources */,
+				3AFCFBA828536C9700220ED8 /* PasscodeScreen.swift in Sources */,
+				3A65E5E128538C2600D1FB74 /* PPasscodeService.swift in Sources */,
 				3AFCFB7A285368C600220ED8 /* AppDelegate.swift in Sources */,
-				3AFCFBA128536AAE00220ED8 /* PFoodVM.swift in Sources */,
 				3AFCFB96285369FC00220ED8 /* PasscodeVM.swift in Sources */,
 				3AFCFB94285369F100220ED8 /* PasscodeVC.swift in Sources */,
 				3AFCFB7C285368C600220ED8 /* SceneDelegate.swift in Sources */,
+				3A65E5DF28538C1500D1FB74 /* PasscodeService.swift in Sources */,
+				3A65E5DB2853898100D1FB74 /* Configuration.swift in Sources */,
+				3AFCFBBC28537A4F00220ED8 /* PasscodeKeyButtonView.swift in Sources */,
+				3AFCFBAB28536E8100220ED8 /* Routes.swift in Sources */,
 				3AFCFB9D28536A2500220ED8 /* MainNC.swift in Sources */,
+				3A65E5D628537E9A00D1FB74 /* PasscodeKeyboardVC.swift in Sources */,
 				3AFCFBA328536ADD00220ED8 /* PPasscodeVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +517,29 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3AFCFBA428536C7200220ED8 /* XCRemoteSwiftPackageReference "Nivelir" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hhru/Nivelir";
+			requirement = {
+				kind = exactVersion;
+				version = 1.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3AFCFBA528536C7200220ED8 /* Nivelir */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3AFCFBA428536C7200220ED8 /* XCRemoteSwiftPackageReference "Nivelir" */;
+			productName = Nivelir;
+		};
+		3AFCFBB02853738000220ED8 /* HelpersLayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HelpersLayer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3AFCFB6C285368A900220ED8 /* Project object */;
 }
