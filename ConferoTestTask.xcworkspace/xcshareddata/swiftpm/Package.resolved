@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "Multitool",
+        "repositoryURL": "https://github.com/AsioOtus/Multitool",
+        "state": {
+          "branch": "master",
+          "revision": "741e90a066dd75181db3654c40ac542389db6264",
+          "version": null
+        }
+      },
+      {
         "package": "Nivelir",
         "repositoryURL": "https://github.com/hhru/Nivelir",
         "state": {

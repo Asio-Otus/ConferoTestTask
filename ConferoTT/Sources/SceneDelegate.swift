@@ -11,7 +11,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 		let window = UIWindow(windowScene: windowScene)
 		let navigator = ScreenNavigator(window: window)
 
-		navigator.navigate(to: Routes.main(initialRoute: Routes.passcode))
+		navigator.navigate(to: Routes.root(initialRoute: Routes.passcode))
 
 		self.window = window
 		self.navigator = navigator

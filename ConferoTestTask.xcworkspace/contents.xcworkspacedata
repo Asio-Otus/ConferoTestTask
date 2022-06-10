@@ -2,7 +2,13 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:NetworkUtil">
+   </FileRef>
+   <FileRef
       location = "group:HelpersLayer">
+   </FileRef>
+   <FileRef
+      location = "group:NetworkLayer">
    </FileRef>
    <FileRef
       location = "container:ConferoTestTask.xcodeproj">

@@ -12,6 +12,18 @@
 		3A65E5DB2853898100D1FB74 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5DA2853898100D1FB74 /* Configuration.swift */; };
 		3A65E5DF28538C1500D1FB74 /* PasscodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5DE28538C1500D1FB74 /* PasscodeService.swift */; };
 		3A65E5E128538C2600D1FB74 /* PPasscodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5E028538C2600D1FB74 /* PPasscodeService.swift */; };
+		3A65E5E62853971B00D1FB74 /* NetworkLayer in Frameworks */ = {isa = PBXBuildFile; productRef = 3A65E5E52853971B00D1FB74 /* NetworkLayer */; };
+		3A65E5E82853971B00D1FB74 /* NetworkUtil in Frameworks */ = {isa = PBXBuildFile; productRef = 3A65E5E72853971B00D1FB74 /* NetworkUtil */; };
+		3A65E5EB2853984600D1FB74 /* FDAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5EA2853984600D1FB74 /* FDAView.swift */; };
+		3A65E5ED2853987700D1FB74 /* FDAVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5EC2853987700D1FB74 /* FDAVM.swift */; };
+		3A65E5EF2853988500D1FB74 /* PFDANM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5EE2853988500D1FB74 /* PFDANM.swift */; };
+		3A65E5F22853998200D1FB74 /* FDAModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5F12853998200D1FB74 /* FDAModel.swift */; };
+		3A65E5F528539E6A00D1FB74 /* EnforcementRequestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5F428539E6A00D1FB74 /* EnforcementRequestDelegate.swift */; };
+		3A65E5F82853A2FD00D1FB74 /* FDAService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5F72853A2FD00D1FB74 /* FDAService.swift */; };
+		3A65E5FA2853A30500D1FB74 /* PFDAService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5F92853A30500D1FB74 /* PFDAService.swift */; };
+		3A65E5FC2853A6A000D1FB74 /* AllowedLimits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5FB2853A6A000D1FB74 /* AllowedLimits.swift */; };
+		3A65E5FE2853AA7600D1FB74 /* FDAScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5FD2853AA7600D1FB74 /* FDAScreen.swift */; };
+		3A65E6012853B74300D1FB74 /* Multitool in Frameworks */ = {isa = PBXBuildFile; productRef = 3A65E6002853B74300D1FB74 /* Multitool */; };
 		3AFCFB7A285368C600220ED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFB79285368C600220ED8 /* AppDelegate.swift */; };
 		3AFCFB7C285368C600220ED8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFB7B285368C600220ED8 /* SceneDelegate.swift */; };
 		3AFCFB83285368C700220ED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFCFB82285368C700220ED8 /* Assets.xcassets */; };
@@ -38,6 +50,15 @@
 		3A65E5DA2853898100D1FB74 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		3A65E5DE28538C1500D1FB74 /* PasscodeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeService.swift; sourceTree = "<group>"; };
 		3A65E5E028538C2600D1FB74 /* PPasscodeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPasscodeService.swift; sourceTree = "<group>"; };
+		3A65E5EA2853984600D1FB74 /* FDAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDAView.swift; sourceTree = "<group>"; };
+		3A65E5EC2853987700D1FB74 /* FDAVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDAVM.swift; sourceTree = "<group>"; };
+		3A65E5EE2853988500D1FB74 /* PFDANM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFDANM.swift; sourceTree = "<group>"; };
+		3A65E5F12853998200D1FB74 /* FDAModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDAModel.swift; sourceTree = "<group>"; };
+		3A65E5F428539E6A00D1FB74 /* EnforcementRequestDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnforcementRequestDelegate.swift; sourceTree = "<group>"; };
+		3A65E5F72853A2FD00D1FB74 /* FDAService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDAService.swift; sourceTree = "<group>"; };
+		3A65E5F92853A30500D1FB74 /* PFDAService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFDAService.swift; sourceTree = "<group>"; };
+		3A65E5FB2853A6A000D1FB74 /* AllowedLimits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllowedLimits.swift; sourceTree = "<group>"; };
+		3A65E5FD2853AA7600D1FB74 /* FDAScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDAScreen.swift; sourceTree = "<group>"; };
 		3AFCFB76285368C600220ED8 /* ConferoTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConferoTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFCFB79285368C600220ED8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AFCFB7B285368C600220ED8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,8 +84,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A65E5E62853971B00D1FB74 /* NetworkLayer in Frameworks */,
 				3AFCFBB12853738000220ED8 /* HelpersLayer in Frameworks */,
 				3AFCFBA628536C7200220ED8 /* Nivelir in Frameworks */,
+				3A65E5E82853971B00D1FB74 /* NetworkUtil in Frameworks */,
+				3A65E6012853B74300D1FB74 /* Multitool in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +106,7 @@
 		3A65E5DC28538C0700D1FB74 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				3A65E5F62853A2F200D1FB74 /* FDAService */,
 				3A65E5E228538C2700D1FB74 /* PasscodeService */,
 			);
 			path = Services;
@@ -94,6 +119,43 @@
 				3A65E5E028538C2600D1FB74 /* PPasscodeService.swift */,
 			);
 			path = PasscodeService;
+			sourceTree = "<group>";
+		};
+		3A65E5E9285397C300D1FB74 /* FDA */ = {
+			isa = PBXGroup;
+			children = (
+				3A65E5EA2853984600D1FB74 /* FDAView.swift */,
+				3A65E5EC2853987700D1FB74 /* FDAVM.swift */,
+				3A65E5EE2853988500D1FB74 /* PFDANM.swift */,
+				3A65E5FD2853AA7600D1FB74 /* FDAScreen.swift */,
+			);
+			path = FDA;
+			sourceTree = "<group>";
+		};
+		3A65E5F02853997000D1FB74 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A65E5F12853998200D1FB74 /* FDAModel.swift */,
+				3A65E5FB2853A6A000D1FB74 /* AllowedLimits.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3A65E5F328539E4700D1FB74 /* RequestDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				3A65E5F428539E6A00D1FB74 /* EnforcementRequestDelegate.swift */,
+			);
+			path = RequestDelegates;
+			sourceTree = "<group>";
+		};
+		3A65E5F62853A2F200D1FB74 /* FDAService */ = {
+			isa = PBXGroup;
+			children = (
+				3A65E5F72853A2FD00D1FB74 /* FDAService.swift */,
+				3A65E5F92853A30500D1FB74 /* PFDAService.swift */,
+			);
+			path = FDAService;
 			sourceTree = "<group>";
 		};
 		3AFCFB6B285368A900220ED8 = {
@@ -125,13 +187,15 @@
 		3AFCFB8B285368CD00220ED8 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				3A65E5DC28538C0700D1FB74 /* Services */,
-				3A65E5D72853863300D1FB74 /* Helpers */,
-				3AFCFBA928536D8100220ED8 /* Navigation */,
 				3AFCFB79285368C600220ED8 /* AppDelegate.swift */,
-				3AFCFB7B285368C600220ED8 /* SceneDelegate.swift */,
-				3AFCFB8E285369C200220ED8 /* Screens */,
 				3A65E5DA2853898100D1FB74 /* Configuration.swift */,
+				3AFCFB7B285368C600220ED8 /* SceneDelegate.swift */,
+				3A65E5D72853863300D1FB74 /* Helpers */,
+				3A65E5F02853997000D1FB74 /* Models */,
+				3AFCFBA928536D8100220ED8 /* Navigation */,
+				3AFCFB8E285369C200220ED8 /* Screens */,
+				3A65E5DC28538C0700D1FB74 /* Services */,
+				3A65E5F328539E4700D1FB74 /* RequestDelegates */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -149,6 +213,7 @@
 		3AFCFB8E285369C200220ED8 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				3A65E5E9285397C300D1FB74 /* FDA */,
 				3AFCFB9928536A1300220ED8 /* Main */,
 				3AFCFB8F285369C800220ED8 /* Passcode */,
 			);
@@ -231,6 +296,9 @@
 			packageProductDependencies = (
 				3AFCFBA528536C7200220ED8 /* Nivelir */,
 				3AFCFBB02853738000220ED8 /* HelpersLayer */,
+				3A65E5E52853971B00D1FB74 /* NetworkLayer */,
+				3A65E5E72853971B00D1FB74 /* NetworkUtil */,
+				3A65E6002853B74300D1FB74 /* Multitool */,
 			);
 			productName = ConferoTT;
 			productReference = 3AFCFB76285368C600220ED8 /* ConferoTT.app */;
@@ -262,6 +330,7 @@
 			mainGroup = 3AFCFB6B285368A900220ED8;
 			packageReferences = (
 				3AFCFBA428536C7200220ED8 /* XCRemoteSwiftPackageReference "Nivelir" */,
+				3A65E5FF2853B74300D1FB74 /* XCRemoteSwiftPackageReference "Multitool" */,
 			);
 			productRefGroup = 3AFCFB77285368C600220ED8 /* Products */;
 			projectDirPath = "";
@@ -293,20 +362,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A65E5F82853A2FD00D1FB74 /* FDAService.swift in Sources */,
 				3AFCFBAD28536F2200220ED8 /* MainScreen.swift in Sources */,
 				3A65E5D92853864A00D1FB74 /* ViewModelContainable.swift in Sources */,
 				3AFCFBA828536C9700220ED8 /* PasscodeScreen.swift in Sources */,
+				3A65E5FA2853A30500D1FB74 /* PFDAService.swift in Sources */,
 				3A65E5E128538C2600D1FB74 /* PPasscodeService.swift in Sources */,
 				3AFCFB7A285368C600220ED8 /* AppDelegate.swift in Sources */,
 				3AFCFB96285369FC00220ED8 /* PasscodeVM.swift in Sources */,
 				3AFCFB94285369F100220ED8 /* PasscodeVC.swift in Sources */,
 				3AFCFB7C285368C600220ED8 /* SceneDelegate.swift in Sources */,
+				3A65E5ED2853987700D1FB74 /* FDAVM.swift in Sources */,
+				3A65E5F22853998200D1FB74 /* FDAModel.swift in Sources */,
 				3A65E5DF28538C1500D1FB74 /* PasscodeService.swift in Sources */,
 				3A65E5DB2853898100D1FB74 /* Configuration.swift in Sources */,
 				3AFCFBBC28537A4F00220ED8 /* PasscodeKeyButtonView.swift in Sources */,
 				3AFCFBAB28536E8100220ED8 /* Routes.swift in Sources */,
+				3A65E5EF2853988500D1FB74 /* PFDANM.swift in Sources */,
 				3AFCFB9D28536A2500220ED8 /* MainNC.swift in Sources */,
 				3A65E5D628537E9A00D1FB74 /* PasscodeKeyboardVC.swift in Sources */,
+				3A65E5FC2853A6A000D1FB74 /* AllowedLimits.swift in Sources */,
+				3A65E5EB2853984600D1FB74 /* FDAView.swift in Sources */,
+				3A65E5FE2853AA7600D1FB74 /* FDAScreen.swift in Sources */,
+				3A65E5F528539E6A00D1FB74 /* EnforcementRequestDelegate.swift in Sources */,
 				3AFCFBA328536ADD00220ED8 /* PPasscodeVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,7 +477,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,7 +553,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -519,6 +597,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		3A65E5FF2853B74300D1FB74 /* XCRemoteSwiftPackageReference "Multitool" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AsioOtus/Multitool";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		3AFCFBA428536C7200220ED8 /* XCRemoteSwiftPackageReference "Nivelir" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/hhru/Nivelir";
@@ -530,6 +616,19 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		3A65E5E52853971B00D1FB74 /* NetworkLayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NetworkLayer;
+		};
+		3A65E5E72853971B00D1FB74 /* NetworkUtil */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NetworkUtil;
+		};
+		3A65E6002853B74300D1FB74 /* Multitool */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A65E5FF2853B74300D1FB74 /* XCRemoteSwiftPackageReference "Multitool" */;
+			productName = Multitool;
+		};
 		3AFCFBA528536C7200220ED8 /* Nivelir */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3AFCFBA428536C7200220ED8 /* XCRemoteSwiftPackageReference "Nivelir" */;
