@@ -5,14 +5,7 @@ struct FDAView: View {
 
     var body: some View {
 		VStack {
-			Picker("", selection: $vm.currentLimit) {
-				ForEach(AllowedLimits.allCases, id: \.self) { limit in
-					Text(limit.description)
-				}
-			}
-			.pickerStyle(.segmented)
-			.padding([.leading, .trailing], 20)
-			.padding(.bottom, 10)
+			FDALimitSelectorView(limit: $vm.currentLimit)
 
 			List {
 				switch vm.fdaModels {

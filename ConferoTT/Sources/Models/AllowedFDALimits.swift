@@ -1,4 +1,4 @@
-enum AllowedLimits: CaseIterable, Hashable {
+enum AllowedFDALimits: CaseIterable, Hashable {
 	case l1
 	case l7
 	case l20

@@ -2,12 +2,12 @@ import Foundation
 import HelpersLayer
 import Combine
 
-class FDAVM: PFDAVM, ObservableObject {
+class FDAVM: ObservableObject {
 	private var subscriptions = Set<AnyCancellable>()
 	private let fdaService = FDAService()
 
 	@Published var fdaModels: ProcessingState<Void, AnyCancellable, [FDAModel]> = .init()
-	@Published var currentLimit: AllowedLimits = .l1
+	@Published var currentLimit: AllowedFDALimits = .l1
 
 	init () {
 		setupSubscriptions()
@@ -15,6 +15,7 @@ class FDAVM: PFDAVM, ObservableObject {
 
 	private func setupSubscriptions () {
 		$currentLimit
+			.removeDuplicates()
 			.sink { [weak self] limit in self?.load(limit.value) }
 			.store(in: &subscriptions)
 	}
