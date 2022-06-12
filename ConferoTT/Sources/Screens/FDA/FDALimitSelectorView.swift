@@ -13,8 +13,8 @@ struct FDALimitSelectorView: View {
 							.font(.system(size: 30))
 							.foregroundColor(
 								self.limit == limit
-								? .white
-								: .blue
+									? .blue
+									: Color(UIColor.label)
 							)
 					}
 				)
