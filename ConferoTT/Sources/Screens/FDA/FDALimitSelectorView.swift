@@ -2,9 +2,9 @@ import SwiftUI
 
 struct FDALimitSelectorView: View {
 	@Binding var limit: AllowedFDALimits
-	
+
 	var body: some View {
-		HStack (spacing: 20) {
+		HStack(spacing: 20) {
 			ForEach(AllowedFDALimits.allCases, id: \.self) { limit in
 				Button(
 					action: { self.limit = limit },

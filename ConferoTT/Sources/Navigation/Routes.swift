@@ -8,7 +8,10 @@ struct Routes {
 			.makeKeyAndVisible()
 	}
 
-	static func passcodeFromRoot (mainCoordinator: MainCoordinator, passcodeService: PasscodeService) -> ScreenWindowRoute {
+	static func passcodeFromRoot (
+		mainCoordinator: MainCoordinator,
+		passcodeService: PasscodeService
+	) -> ScreenWindowRoute {
 		.init()
 		.first(.container(of: MainNC.self))
 		.then(

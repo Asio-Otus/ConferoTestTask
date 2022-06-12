@@ -9,7 +9,7 @@ struct EnforcementRequestDelegate: RequestDelegate {
 	}
 
 	func content (_ response: EnforcementRequest.Response, _ requestInfo: RequestInfo) throws -> [FDAModel] {
-		response.model.results.map{
+		response.model.results.map {
 			.init(
 				eventId: $0.eventId,
 				productDecription: $0.productDescription

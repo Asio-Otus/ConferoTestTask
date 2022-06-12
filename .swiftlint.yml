@@ -1,0 +1,8 @@
+excluded:
+    - Pods
+    - NetworkUtil
+    - HelpersLayer
+
+disabled_rules:
+    - identifier_name
+    - nesting

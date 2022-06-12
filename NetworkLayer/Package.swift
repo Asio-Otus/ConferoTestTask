@@ -9,7 +9,7 @@ let package = Package(
         .library(
             name: "NetworkLayer",
             targets: ["NetworkLayer"]
-		),
+		)
     ],
 	dependencies: [
 		.package(

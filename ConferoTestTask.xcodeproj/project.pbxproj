@@ -29,6 +29,7 @@
 		3A65E6232855493A00D1FB74 /* FDALimitSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E6222855493A00D1FB74 /* FDALimitSelectorView.swift */; };
 		3A65E6262855FB7A00D1FB74 /* PMainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E6252855FB7A00D1FB74 /* PMainCoordinator.swift */; };
 		3A65E6282856031400D1FB74 /* MockMainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E6272856031400D1FB74 /* MockMainCoordinator.swift */; };
+		3AD54831285609D1009828B8 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 3AD54830285609D1009828B8 /* .swiftlint.yml */; };
 		3AFCFB7A285368C600220ED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFB79285368C600220ED8 /* AppDelegate.swift */; };
 		3AFCFB7C285368C600220ED8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFB7B285368C600220ED8 /* SceneDelegate.swift */; };
 		3AFCFB83285368C700220ED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFCFB82285368C700220ED8 /* Assets.xcassets */; };
@@ -80,6 +81,7 @@
 		3A65E6222855493A00D1FB74 /* FDALimitSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDALimitSelectorView.swift; sourceTree = "<group>"; };
 		3A65E6252855FB7A00D1FB74 /* PMainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMainCoordinator.swift; sourceTree = "<group>"; };
 		3A65E6272856031400D1FB74 /* MockMainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMainCoordinator.swift; sourceTree = "<group>"; };
+		3AD54830285609D1009828B8 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		3AFCFB76285368C600220ED8 /* ConferoTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConferoTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFCFB79285368C600220ED8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AFCFB7B285368C600220ED8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -223,6 +225,7 @@
 		3AFCFB6B285368A900220ED8 = {
 			isa = PBXGroup;
 			children = (
+				3AD54830285609D1009828B8 /* .swiftlint.yml */,
 				3AFCFB78285368C600220ED8 /* ConferoTT */,
 				3A65E6162853CB8F00D1FB74 /* ConferoTTTests */,
 				3AFCFB77285368C600220ED8 /* Products */,
@@ -368,6 +371,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AFCFB88285368C700220ED8 /* Build configuration list for PBXNativeTarget "ConferoTT" */;
 			buildPhases = (
+				3A65E62C2856093300D1FB74 /* ShellScript */,
 				3AFCFB72285368C600220ED8 /* Sources */,
 				3AFCFB73285368C600220ED8 /* Frameworks */,
 				3AFCFB74285368C600220ED8 /* Resources */,
@@ -445,6 +449,7 @@
 				3AFCFB86285368C700220ED8 /* LaunchScreen.storyboard in Resources */,
 				3AFCFBB7285379B500220ED8 /* PasscodeKeyboardVC.storyboard in Resources */,
 				3AFCFB83285368C700220ED8 /* Assets.xcassets in Resources */,
+				3AD54831285609D1009828B8 /* .swiftlint.yml in Resources */,
 				3AFCFB92285369E700220ED8 /* PasscodeVC.storyboard in Resources */,
 				3AFCFB9B28536A1E00220ED8 /* MainNC.storyboard in Resources */,
 				3AFCFBB9285379E400220ED8 /* PasscodeKeyButtonView.xib in Resources */,
@@ -452,6 +457,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A65E62C2856093300D1FB74 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3A65E6112853CB8F00D1FB74 /* Sources */ = {

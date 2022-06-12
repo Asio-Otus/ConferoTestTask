@@ -12,5 +12,5 @@ struct PasscodeScreen: Screen {
 				passcodeService: passcodeService
 			)
 		)
-	}	
+	}
 }
