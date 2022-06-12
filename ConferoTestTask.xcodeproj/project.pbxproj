@@ -16,14 +16,19 @@
 		3A65E5E82853971B00D1FB74 /* NetworkUtil in Frameworks */ = {isa = PBXBuildFile; productRef = 3A65E5E72853971B00D1FB74 /* NetworkUtil */; };
 		3A65E5EB2853984600D1FB74 /* FDAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5EA2853984600D1FB74 /* FDAView.swift */; };
 		3A65E5ED2853987700D1FB74 /* FDAVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5EC2853987700D1FB74 /* FDAVM.swift */; };
-		3A65E5EF2853988500D1FB74 /* PFDANM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5EE2853988500D1FB74 /* PFDANM.swift */; };
 		3A65E5F22853998200D1FB74 /* FDAModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5F12853998200D1FB74 /* FDAModel.swift */; };
 		3A65E5F528539E6A00D1FB74 /* EnforcementRequestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5F428539E6A00D1FB74 /* EnforcementRequestDelegate.swift */; };
 		3A65E5F82853A2FD00D1FB74 /* FDAService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5F72853A2FD00D1FB74 /* FDAService.swift */; };
 		3A65E5FA2853A30500D1FB74 /* PFDAService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5F92853A30500D1FB74 /* PFDAService.swift */; };
-		3A65E5FC2853A6A000D1FB74 /* AllowedLimits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5FB2853A6A000D1FB74 /* AllowedLimits.swift */; };
+		3A65E5FC2853A6A000D1FB74 /* AllowedFDALimits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5FB2853A6A000D1FB74 /* AllowedFDALimits.swift */; };
 		3A65E5FE2853AA7600D1FB74 /* FDAScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E5FD2853AA7600D1FB74 /* FDAScreen.swift */; };
 		3A65E6012853B74300D1FB74 /* Multitool in Frameworks */ = {isa = PBXBuildFile; productRef = 3A65E6002853B74300D1FB74 /* Multitool */; };
+		3A65E6182853CB8F00D1FB74 /* ConferoTTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E6172853CB8F00D1FB74 /* ConferoTTTests.swift */; };
+		3A65E61F2853CDC400D1FB74 /* FakePasscodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E61E2853CDC400D1FB74 /* FakePasscodeService.swift */; };
+		3A65E621285544D500D1FB74 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E620285544D500D1FB74 /* MainCoordinator.swift */; };
+		3A65E6232855493A00D1FB74 /* FDALimitSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E6222855493A00D1FB74 /* FDALimitSelectorView.swift */; };
+		3A65E6262855FB7A00D1FB74 /* PMainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E6252855FB7A00D1FB74 /* PMainCoordinator.swift */; };
+		3A65E6282856031400D1FB74 /* MockMainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65E6272856031400D1FB74 /* MockMainCoordinator.swift */; };
 		3AFCFB7A285368C600220ED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFB79285368C600220ED8 /* AppDelegate.swift */; };
 		3AFCFB7C285368C600220ED8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFB7B285368C600220ED8 /* SceneDelegate.swift */; };
 		3AFCFB83285368C700220ED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFCFB82285368C700220ED8 /* Assets.xcassets */; };
@@ -44,6 +49,16 @@
 		3AFCFBBC28537A4F00220ED8 /* PasscodeKeyButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFBBB28537A4F00220ED8 /* PasscodeKeyButtonView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3A65E6192853CB8F00D1FB74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AFCFB6C285368A900220ED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AFCFB75285368C600220ED8;
+			remoteInfo = ConferoTT;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		3A65E5D528537E9A00D1FB74 /* PasscodeKeyboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeKeyboardVC.swift; sourceTree = "<group>"; };
 		3A65E5D82853864A00D1FB74 /* ViewModelContainable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelContainable.swift; sourceTree = "<group>"; };
@@ -52,13 +67,19 @@
 		3A65E5E028538C2600D1FB74 /* PPasscodeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPasscodeService.swift; sourceTree = "<group>"; };
 		3A65E5EA2853984600D1FB74 /* FDAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDAView.swift; sourceTree = "<group>"; };
 		3A65E5EC2853987700D1FB74 /* FDAVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDAVM.swift; sourceTree = "<group>"; };
-		3A65E5EE2853988500D1FB74 /* PFDANM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFDANM.swift; sourceTree = "<group>"; };
 		3A65E5F12853998200D1FB74 /* FDAModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDAModel.swift; sourceTree = "<group>"; };
 		3A65E5F428539E6A00D1FB74 /* EnforcementRequestDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnforcementRequestDelegate.swift; sourceTree = "<group>"; };
 		3A65E5F72853A2FD00D1FB74 /* FDAService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDAService.swift; sourceTree = "<group>"; };
 		3A65E5F92853A30500D1FB74 /* PFDAService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFDAService.swift; sourceTree = "<group>"; };
-		3A65E5FB2853A6A000D1FB74 /* AllowedLimits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllowedLimits.swift; sourceTree = "<group>"; };
+		3A65E5FB2853A6A000D1FB74 /* AllowedFDALimits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllowedFDALimits.swift; sourceTree = "<group>"; };
 		3A65E5FD2853AA7600D1FB74 /* FDAScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDAScreen.swift; sourceTree = "<group>"; };
+		3A65E6152853CB8F00D1FB74 /* ConferoTTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConferoTTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A65E6172853CB8F00D1FB74 /* ConferoTTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferoTTTests.swift; sourceTree = "<group>"; };
+		3A65E61E2853CDC400D1FB74 /* FakePasscodeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakePasscodeService.swift; sourceTree = "<group>"; };
+		3A65E620285544D500D1FB74 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		3A65E6222855493A00D1FB74 /* FDALimitSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDALimitSelectorView.swift; sourceTree = "<group>"; };
+		3A65E6252855FB7A00D1FB74 /* PMainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMainCoordinator.swift; sourceTree = "<group>"; };
+		3A65E6272856031400D1FB74 /* MockMainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMainCoordinator.swift; sourceTree = "<group>"; };
 		3AFCFB76285368C600220ED8 /* ConferoTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConferoTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFCFB79285368C600220ED8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AFCFB7B285368C600220ED8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +101,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3A65E6122853CB8F00D1FB74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3AFCFB73285368C600220ED8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -126,8 +154,8 @@
 			children = (
 				3A65E5EA2853984600D1FB74 /* FDAView.swift */,
 				3A65E5EC2853987700D1FB74 /* FDAVM.swift */,
-				3A65E5EE2853988500D1FB74 /* PFDANM.swift */,
 				3A65E5FD2853AA7600D1FB74 /* FDAScreen.swift */,
+				3A65E6222855493A00D1FB74 /* FDALimitSelectorView.swift */,
 			);
 			path = FDA;
 			sourceTree = "<group>";
@@ -136,7 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				3A65E5F12853998200D1FB74 /* FDAModel.swift */,
-				3A65E5FB2853A6A000D1FB74 /* AllowedLimits.swift */,
+				3A65E5FB2853A6A000D1FB74 /* AllowedFDALimits.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -158,10 +186,45 @@
 			path = FDAService;
 			sourceTree = "<group>";
 		};
+		3A65E6162853CB8F00D1FB74 /* ConferoTTTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A65E62B285604CA00D1FB74 /* Mocks */,
+				3A65E62A285604C400D1FB74 /* Fakes */,
+				3A65E629285604BE00D1FB74 /* Tests */,
+			);
+			path = ConferoTTTests;
+			sourceTree = "<group>";
+		};
+		3A65E629285604BE00D1FB74 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3A65E6172853CB8F00D1FB74 /* ConferoTTTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		3A65E62A285604C400D1FB74 /* Fakes */ = {
+			isa = PBXGroup;
+			children = (
+				3A65E61E2853CDC400D1FB74 /* FakePasscodeService.swift */,
+			);
+			path = Fakes;
+			sourceTree = "<group>";
+		};
+		3A65E62B285604CA00D1FB74 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				3A65E6272856031400D1FB74 /* MockMainCoordinator.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		3AFCFB6B285368A900220ED8 = {
 			isa = PBXGroup;
 			children = (
 				3AFCFB78285368C600220ED8 /* ConferoTT */,
+				3A65E6162853CB8F00D1FB74 /* ConferoTTTests */,
 				3AFCFB77285368C600220ED8 /* Products */,
 				3AFCFBAF2853738000220ED8 /* Frameworks */,
 			);
@@ -171,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				3AFCFB76285368C600220ED8 /* ConferoTT.app */,
+				3A65E6152853CB8F00D1FB74 /* ConferoTTTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -248,6 +312,8 @@
 			isa = PBXGroup;
 			children = (
 				3AFCFBAA28536E8100220ED8 /* Routes.swift */,
+				3A65E620285544D500D1FB74 /* MainCoordinator.swift */,
+				3A65E6252855FB7A00D1FB74 /* PMainCoordinator.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -280,6 +346,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3A65E6142853CB8F00D1FB74 /* ConferoTTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A65E61B2853CB8F00D1FB74 /* Build configuration list for PBXNativeTarget "ConferoTTTests" */;
+			buildPhases = (
+				3A65E6112853CB8F00D1FB74 /* Sources */,
+				3A65E6122853CB8F00D1FB74 /* Frameworks */,
+				3A65E6132853CB8F00D1FB74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A65E61A2853CB8F00D1FB74 /* PBXTargetDependency */,
+			);
+			name = ConferoTTTests;
+			productName = ConferoTTTests;
+			productReference = 3A65E6152853CB8F00D1FB74 /* ConferoTTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		3AFCFB75285368C600220ED8 /* ConferoTT */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AFCFB88285368C700220ED8 /* Build configuration list for PBXNativeTarget "ConferoTT" */;
@@ -314,6 +398,10 @@
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
+					3A65E6142853CB8F00D1FB74 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3AFCFB75285368C600220ED8;
+					};
 					3AFCFB75285368C600220ED8 = {
 						CreatedOnToolsVersion = 13.0;
 					};
@@ -337,11 +425,19 @@
 			projectRoot = "";
 			targets = (
 				3AFCFB75285368C600220ED8 /* ConferoTT */,
+				3A65E6142853CB8F00D1FB74 /* ConferoTTTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3A65E6132853CB8F00D1FB74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3AFCFB74285368C600220ED8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -358,12 +454,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3A65E6112853CB8F00D1FB74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A65E6282856031400D1FB74 /* MockMainCoordinator.swift in Sources */,
+				3A65E61F2853CDC400D1FB74 /* FakePasscodeService.swift in Sources */,
+				3A65E6182853CB8F00D1FB74 /* ConferoTTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3AFCFB72285368C600220ED8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3A65E5F82853A2FD00D1FB74 /* FDAService.swift in Sources */,
 				3AFCFBAD28536F2200220ED8 /* MainScreen.swift in Sources */,
+				3A65E6232855493A00D1FB74 /* FDALimitSelectorView.swift in Sources */,
+				3A65E621285544D500D1FB74 /* MainCoordinator.swift in Sources */,
+				3A65E6262855FB7A00D1FB74 /* PMainCoordinator.swift in Sources */,
 				3A65E5D92853864A00D1FB74 /* ViewModelContainable.swift in Sources */,
 				3AFCFBA828536C9700220ED8 /* PasscodeScreen.swift in Sources */,
 				3A65E5FA2853A30500D1FB74 /* PFDAService.swift in Sources */,
@@ -378,10 +487,9 @@
 				3A65E5DB2853898100D1FB74 /* Configuration.swift in Sources */,
 				3AFCFBBC28537A4F00220ED8 /* PasscodeKeyButtonView.swift in Sources */,
 				3AFCFBAB28536E8100220ED8 /* Routes.swift in Sources */,
-				3A65E5EF2853988500D1FB74 /* PFDANM.swift in Sources */,
 				3AFCFB9D28536A2500220ED8 /* MainNC.swift in Sources */,
 				3A65E5D628537E9A00D1FB74 /* PasscodeKeyboardVC.swift in Sources */,
-				3A65E5FC2853A6A000D1FB74 /* AllowedLimits.swift in Sources */,
+				3A65E5FC2853A6A000D1FB74 /* AllowedFDALimits.swift in Sources */,
 				3A65E5EB2853984600D1FB74 /* FDAView.swift in Sources */,
 				3A65E5FE2853AA7600D1FB74 /* FDAScreen.swift in Sources */,
 				3A65E5F528539E6A00D1FB74 /* EnforcementRequestDelegate.swift in Sources */,
@@ -390,6 +498,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A65E61A2853CB8F00D1FB74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AFCFB75285368C600220ED8 /* ConferoTT */;
+			targetProxy = 3A65E6192853CB8F00D1FB74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3AFCFB84285368C700220ED8 /* LaunchScreen.storyboard */ = {
@@ -403,6 +519,156 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3A65E61C2853CB8F00D1FB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3HY2N64MXA;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = AO.ConferoTTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConferoTT.app/ConferoTT";
+			};
+			name = Debug;
+		};
+		3A65E61D2853CB8F00D1FB74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3HY2N64MXA;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = AO.ConferoTTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConferoTT.app/ConferoTT";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		3AFCFB70285368A900220ED8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -475,6 +741,7 @@
 				INFOPLIST_FILE = ConferoTT/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -551,6 +818,7 @@
 				INFOPLIST_FILE = ConferoTT/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -576,6 +844,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3A65E61B2853CB8F00D1FB74 /* Build configuration list for PBXNativeTarget "ConferoTTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A65E61C2853CB8F00D1FB74 /* Debug */,
+				3A65E61D2853CB8F00D1FB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3AFCFB6F285368A900220ED8 /* Build configuration list for PBXProject "ConferoTestTask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

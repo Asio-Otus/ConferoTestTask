@@ -1,17 +1,16 @@
 import Combine
-import Nivelir
 
 class PasscodeVM: PPasscodeVM {
 	private var subscriptions = Set<AnyCancellable>()
 
-	private let navigator: ScreenNavigator
+	private let mainCoordinator: PMainCoordinator
 	private let passcodeService: PPasscodeService
 
 	let passcode = CurrentValueSubject<String, Never>("")
 	let nextDigitTrigger = PassthroughSubject<String?, Never>()
 
-	init (navigator: ScreenNavigator, passcodeService: PPasscodeService) {
-		self.navigator = navigator
+	init (mainCoordinator: PMainCoordinator, passcodeService: PPasscodeService) {
+		self.mainCoordinator = mainCoordinator
 		self.passcodeService = passcodeService
 
 		setupSubscriptions()
@@ -28,13 +27,12 @@ class PasscodeVM: PPasscodeVM {
 
 				if $0.count >= Configuration.passcodeLength {
 					if self.passcodeService.isValid(passcode: $0) == true {
-						self.navigator.navigate(to: Routes.fdaFull)
+						self.mainCoordinator.onCorrectPasscode()
 					}
 
 					self.passcode.send("")
 				}
 			}
 			.store(in: &subscriptions)
-		
 	}
 }

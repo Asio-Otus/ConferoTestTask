@@ -1,12 +1,15 @@
 import Nivelir
 
-class PasscodeScreen: Screen {
+struct PasscodeScreen: Screen {
+	let mainCoordinator: MainCoordinator
+	let passcodeService: PasscodeService
+
 	func build (navigator: ScreenNavigator) -> PasscodeVC {
 		.instantiate()
 		.set(
 			vm: PasscodeVM(
-				navigator: navigator,
-				passcodeService: PasscodeService()
+				mainCoordinator: mainCoordinator,
+				passcodeService: passcodeService
 			)
 		)
 	}	

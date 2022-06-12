@@ -1,7 +1,7 @@
 import Nivelir
 import HelpersLayer
 
-class MainScreen: Screen {
+struct MainScreen: Screen {
 	func build (navigator: ScreenNavigator) -> MainNC {
 		.instantiate()
 	}
