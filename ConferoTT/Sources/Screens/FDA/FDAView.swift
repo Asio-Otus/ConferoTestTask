@@ -21,11 +21,10 @@ struct FDAView: View {
 						Text(model.productDecription)
 					}
 
-
 				case .failed(let error):
 					VStack {
 						Text("Error")
-						Text(error.localizedDescription)
+						Text("\(error.name.uppercased()) – \(error.innerError.localizedDescription)")
 					}
 				}
 			}

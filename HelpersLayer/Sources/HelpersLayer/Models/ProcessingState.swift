@@ -1,8 +1,8 @@
-public enum ProcessingState <Initial, Processing, Completed> {
+public enum ProcessingState <Initial, Processing, Completed, Failed> {
 	case initial(Initial)
 	case processing(Processing)
 	case completed(Completed)
-	case failed(Error)
+	case failed(Failed)
 
 	public var stateName: String {
 		switch self {

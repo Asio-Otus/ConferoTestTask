@@ -14,4 +14,8 @@ public struct NetworkError: NetworkUtilError {
         self.urlRequest = urlRequest
         self.urlError = urlError
     }
+
+	public var errorDescription: String? {
+		urlError.localizedDescription
+	}
 }

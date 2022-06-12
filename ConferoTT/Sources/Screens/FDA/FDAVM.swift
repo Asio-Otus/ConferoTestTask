@@ -1,12 +1,13 @@
 import Foundation
 import HelpersLayer
 import Combine
+import NetworkUtil
 
 class FDAVM: ObservableObject {
 	private var subscriptions = Set<AnyCancellable>()
 	private let fdaService = FDAService()
 
-	@Published var fdaModels: ProcessingState<Void, AnyCancellable, [FDAModel]> = .init()
+	@Published var fdaModels: ProcessingState<Void, AnyCancellable, [FDAModel], RequestError> = .init()
 	@Published var currentLimit: AllowedFDALimits = .l1
 
 	init () {

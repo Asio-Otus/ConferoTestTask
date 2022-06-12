@@ -1,1 +1,3 @@
-public protocol NetworkUtilError: Error { }
+import Foundation
+
+public protocol NetworkUtilError: LocalizedError { }
